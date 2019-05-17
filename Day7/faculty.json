@@ -1,0 +1,74 @@
+"""
+
+Code Challenge
+  Name: 
+    Student and Faculty JSON
+  Filename: 
+    student.json
+    faculty.json
+  Problem Statement:
+    Create a student and Faculty JSON object and get it verified using jsonlint.com
+    Write a JSON for faculty profile. 
+    The JSON should have profile of minimum 2 faculty members. 
+    The profile for each faculty should include below information atleast:
+
+        First Name
+        Last Name
+        Photo (Just a random url)
+        Department 
+        Research Areas (can be multiple)
+        Contact Details (should include phone number and email id and can have multiple )
+   Hint:
+       www.jsonlint.com
+       
+"""
+
+
+student_json="""
+{
+     "name" : "Aakash Soni",
+     "id" : "16egccs001"
+     "sem" : 7
+     "college" : "GIT"
+     "address" : [{
+                     "city" : "Bhilwara" 
+                     "state" : "Rajsthan"
+                }]
+     
+}"""
+
+
+faculty_json="""
+{
+     "faculty" : [
+                     
+                     {
+                             "name" : "Sneha Rathi",
+     "post" : "Asst. Prof",
+     "degree" : "phd",
+     "college" : "GIT",
+     "address" : [{
+                     "city" : "jaipur",
+                     "area" : "xyz"
+     
+                     
+                     
+                     }],
+     "photo" : "https://in.images.search.yahoo.com/search/images;_ylt=AwrPh9ddUdpcWzQAGCe7HAx.;_ylu=X3oDMTB0N2poMXRwBGNvbG8Dc2czBHBvcwMxBHZ0aWQDBHNlYwNwaXZz?p=global+institute+of+technology&fr2=piv-web&fr=mcafee"
+       },          
+           {
+                             "name" : "Sneha1 Rathi",
+     "post" : "Asst. Prof",
+     "degree" : "phd",
+     "college" : "GIT",
+     "address" : [{
+                     "city" : "jaipur",
+                     "area" : "xyz"
+     
+                     
+                     
+                     }],
+     "photo" : "https://in.images.search.yahoo.com/search/images;_ylt=AwrPh9ddUdpcWzQAGCe7HAx.;_ylu=X3oDMTB0N2poMXRwBGNvbG8Dc2czBHBvcwMxBHZ0aWQDBHNlYwNwaXZz?p=global+institute+of+technology&fr2=piv-web&fr=mcafee"           
+     }
+]        
+}"""
